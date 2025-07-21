@@ -2,7 +2,7 @@ body {
     background: url(nincorpback.webp);
     background-repeat: no-repeat;
     height: fit-content;
-    background-position: center;
+    background-position:inherit;
     background-size: auto;
 
     font-family: 'Courier New', monospace;
