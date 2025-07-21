@@ -1,5 +1,8 @@
 body {
     background-image: url(nincorpback.webp);
+    background-repeat: no-repeat;
+    background-size: auto;
+    
     font-family: 'Courier New', monospace;
 }
 
