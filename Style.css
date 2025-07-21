@@ -1,7 +1,7 @@
-p {
-    color: maroon;
-    font-size: 15px;
+url {
+    background-color: lightseagreen;
 }
+
 
 h1 {
     font-weight: bold;
@@ -9,3 +9,11 @@ h1 {
     font-size: 25px;
     color: red;
 }
+
+
+p {
+    color: maroon;
+    font-size: 15px;
+}
+
+
