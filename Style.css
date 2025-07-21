@@ -5,7 +5,7 @@ body {
     width: auto;
     background-attachment: fixed;
     background-position: center;
-    background-size: auto;
+    background-size: cover;
 
     font-family: 'Courier New', monospace;
 }
@@ -22,7 +22,7 @@ h1 {
 p {
     text-align: center;
     color: red;
-    font-size: 20px;
+    font-size: 12px;
 }
 
 
