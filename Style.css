@@ -2,6 +2,7 @@ body {
     background: url(nincorpback.webp);
     background-repeat: no-repeat;
     height: fit-content;
+    background-attachment: fixed
     background-position: center;
     background-size: auto;
 
