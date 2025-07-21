@@ -2,14 +2,14 @@ body {
     background: url(nincorpback.webp);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 
     font-family: 'Courier New', monospace;
 }
 
 
 h1 {
-    font-weight: bold;
+    font-weight: thin;
     text-align: center;
     font-size: 60px;
     color: red;
@@ -17,7 +17,7 @@ h1 {
 
 
 p {
-    text-align: justify;
+    text-align: center;
     color: red;
     font-size: 20px;
 }
