@@ -29,3 +29,10 @@ p {
     font-size: 25px;
 }
 
+.game-info {
+    font-size: 18px;
+}
+
+iframe {
+    align-self: center;
+}
