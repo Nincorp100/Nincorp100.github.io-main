@@ -29,12 +29,7 @@ ul {
     text-align: center;
 }
 
-.home {
-    color: snow;
-    display: inline;
-}
-
-li {
+a {
     color: snow;
     display: inline;
 }
@@ -46,3 +41,4 @@ li {
 .game-info {
     font-size: 18px;
 }
+
