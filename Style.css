@@ -25,6 +25,13 @@ p {
     font-size: 18px;
 }
 
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
 .about {
     font-size: 25px;
 }
