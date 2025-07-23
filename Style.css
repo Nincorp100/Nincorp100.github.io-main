@@ -29,7 +29,11 @@ ul {
     text-align: center;
 }
 
-.home,
+.home {
+    color: snow;
+    display: inline;
+}
+
 li {
     color: snow;
     display: inline;
