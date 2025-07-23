@@ -25,14 +25,10 @@ p {
     font-size: 18px;
 }
 
-ul {
+nav {
     text-align: center;
-}
-
-.li,
-a {
     color: snow;
-    display: inline-block;
+    font-size: 20;
 }
 
 .about {
