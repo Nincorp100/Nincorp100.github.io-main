@@ -29,12 +29,15 @@ ul {
     text-align: center;
 }
 
+.li,
 a {
     color: snow;
+    display: inline-block;
 }
 
 .about {
     font-size: 25px;
+    text-align: justify;
 }
 
 .game-info {
