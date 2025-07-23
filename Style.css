@@ -29,9 +29,12 @@ ul {
     text-align: center;
 }
 
+.home,
 li {
+    color:snow
     display: inline;
 }
+
 .about {
     font-size: 25px;
 }
