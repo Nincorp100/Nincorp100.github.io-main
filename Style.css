@@ -42,3 +42,17 @@ nav, a {
     font-size: 18px;
 }
 
+.iframe-text-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px; /* space between iframe and text */
+}
+
+.iframe-text-container iframe {
+    /* Optional: keep the iframe size as needed */
+}
+
+.iframe-text-container .game-info {
+    /* Optional: set a max-width if you want to limit the text width */
+    max-width: 400px;
+}
