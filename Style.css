@@ -43,16 +43,62 @@ nav, a {
 }
 
 .iframe-text-container {
-    display: flex;
-    align-items: flex-start;
-    gap: 32px; /* space between iframe and text */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
 }
 
 .iframe-text-container iframe {
     /* Optional: keep the iframe size as needed */
+    width: 100%;
+    max-width: 485px;
+    height: auto;
+    aspect-ratio: 485/402;
 }
 
 .iframe-text-container .game-info {
-    /* Optional: set a max-width if you want to limit the text width */
-    max-width: 400px;
+    /* Optional: set a max-width if you want to limit the text width*/
+    font-size: 16px;
+    line-height: 1.5;
+    }
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .iframe-text-container {
+        padding: 10px;
+    }
+    
+    .game-info {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .iframe-text-container {
+        padding: 5px;
+    }
+    
+    .game-info {
+        font-size: 12px;
+    }
+}
+
+/* Base responsive settings */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
