@@ -25,10 +25,12 @@ p {
     font-size: 18px;
 }
 
-nav, a {
+.Tabs {
     text-align: center;
     color: snow;
-    font-size: 20;
+    font-size: 20px;
+    position: fixed;
+    bottom: 20px;
 }
 
 .about {
