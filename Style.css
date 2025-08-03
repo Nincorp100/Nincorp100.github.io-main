@@ -67,7 +67,7 @@ p {
     display: block;
 }
 
-.iframe-text-container .game-info {
+.iframe-text-container {
     /* Optional: set a max-width if you want to limit the text width*/
     font-size: 16px;
     line-height: 1.5;
