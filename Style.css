@@ -74,33 +74,3 @@ p {
     }
     line-height: 1.5;
 }
-
-/* Media Queries */
-@media screen and (max-width: 768px) {
-    .iframe-text-container {
-        padding: 10px;
-    }
-    
-    .game-info {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .iframe-text-container {
-        padding: 5px;
-    }
-    
-    .game-info {
-        font-size: 12px;
-    }
-
-    .about {
-        position: static;
-        top: auto;
-        left: auto;
-        transform: none;
-        max-width: 100%;
-        padding: 10px;
-    }
-}
