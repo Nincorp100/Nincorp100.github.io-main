@@ -47,30 +47,3 @@ p {
     font-size: 18px;
 }
 
-.iframe-text-container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 15px;
-
-}
-
-.iframe-text-container iframe {
-    /* Optional: keep the iframe size as needed */
-    width: 100%;
-    max-width: 485px;
-    height: auto;
-    /* Fallback for browsers that do not support aspect-ratio */
-    /* 402 / 485 * 100 = 82.89% */
-    padding-bottom: 82.89%;
-    aspect-ratio: 485/402;
-    display: block;
-}
-
-.iframe-text-container {
-    /* Optional: set a max-width if you want to limit the text width*/
-    font-size: 16px;
-    line-height: 1.5;
-    }
-    line-height: 1.5;
-}
