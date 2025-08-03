@@ -1,14 +1,12 @@
 body {
     background: url(nincorpback.webp);
     background-repeat: no-repeat;
-    height: auto;
-    width: auto;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 
     font-family: 'Arial', sans-serif;
-
+}
 
 h1 {
     font-weight: lighter;
@@ -21,7 +19,6 @@ h1 {
 p {
     text-align: center;
     color: red;
-    font-size: 18px;
 }
 
 .Tabs,
@@ -30,7 +27,6 @@ p {
     color: snow;
     font-size: 20px;
 }
-.about {
 .about {
     font-size: 20px;
     text-align: center;
@@ -44,6 +40,3 @@ p {
     padding: 20px;
     margin: 0;
 }
-    font-size: 18px;
-}
-
