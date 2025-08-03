@@ -95,20 +95,3 @@ p {
         font-size: 12px;
     }
 }
-
-/* Base responsive settings */
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow-x: hidden;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
