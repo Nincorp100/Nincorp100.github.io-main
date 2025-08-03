@@ -7,8 +7,7 @@ body {
     background-position: center;
     background-size: cover;
 
-    font-family: 'Papyrus', monospace;
-}
+    font-family: 'Arial', sans-serif;
 
 
 h1 {
@@ -25,29 +24,26 @@ p {
     font-size: 18px;
 }
 
-.Tabs, a{
+.Tabs,
+.Tabs a {
     text-align: center;
     color: snow;
     font-size: 20px;
-    position: fixed;
 }
-
+.about {
 .about {
     font-size: 20px;
     text-align: center;
     border-style: solid;
     background-color: whitesmoke;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 80%; /* Prevents the box from being too wide */
     padding: 20px;
     margin: 0;
-
 }
-
-.game-info {
     font-size: 18px;
 }
 
@@ -64,7 +60,11 @@ p {
     width: 100%;
     max-width: 485px;
     height: auto;
+    /* Fallback for browsers that do not support aspect-ratio */
+    /* 402 / 485 * 100 = 82.89% */
+    padding-bottom: 82.89%;
     aspect-ratio: 485/402;
+    display: block;
 }
 
 .iframe-text-container .game-info {
@@ -72,7 +72,8 @@ p {
     font-size: 16px;
     line-height: 1.5;
     }
-
+    line-height: 1.5;
+}
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
@@ -92,5 +93,14 @@ p {
     
     .game-info {
         font-size: 12px;
+    }
+
+    .about {
+        position: static;
+        top: auto;
+        left: auto;
+        transform: none;
+        max-width: 100%;
+        padding: 10px;
     }
 }
