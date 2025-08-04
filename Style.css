@@ -40,3 +40,12 @@ p {
     padding: 20px;
     margin: 0;
 }
+.iframe-text-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px; /* space between iframe and text */
+}
+
+.game-details {
+    max-width: 400px;
+}
