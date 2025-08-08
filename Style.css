@@ -35,15 +35,26 @@ p {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+.about {
+    font-size: 20px;
+    text-align: center;
+    border-style: solid;
+    background-color: whitesmoke;
     max-width: 80%; /* Prevents the box from being too wide */
-    padding: 20px;
-    margin: 0;
+    min-width: 300px; /* Prevents the box from being too narrow */
+@media (max-width: 600px) {
+    .about {
+        max-width: 95%;
+        font-size: 16px;
+        padding: 10px;
+    }
 }
+
 .iframe-text-container {
     display: flex;
     align-items: flex-start;
     gap: 30px; /* space between iframe and text */
+}
 }
 
 .game-details {
