@@ -58,3 +58,7 @@ p {
 .game-details {
     max-width: 400px;
 }
+
+.resume-link {
+    text-align: center;
+}
