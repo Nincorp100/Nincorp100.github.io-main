@@ -21,40 +21,38 @@ p {
     color: red;
 }
 
-.Tabs,
-.Tabs a {
+.Tabs {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    word-spacing: 20px;
     text-align: center;
+    width: auto;
+    z-index: 10;
+}
+
+.Tabs a {
     color: snow;
     font-size: 20px;
+    text-decoration: none;
 }
+
 .about {
     font-size: 20px;
     text-align: center;
     border-style: solid;
     background-color: whitesmoke;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-.about {
-    font-size: 20px;
-    text-align: center;
-    border-style: solid;
-    background-color: whitesmoke;
-    max-width: 80%; /* Prevents the box from being too wide */
-    min-width: 300px; /* Prevents the box from being too narrow */
-@media (max-width: 600px) {
-    .about {
-        max-width: 95%;
-        font-size: 16px;
-        padding: 10px;
-    }
+    display: block;
+    margin: 40px auto 0 auto; /* top margin, auto left/right, no bottom margin */
+    max-width: 600px;
+    padding: 20px;
 }
 
 .iframe-text-container {
     display: flex;
     align-items: flex-start;
     gap: 30px; /* space between iframe and text */
-}
 }
 
 .game-details {
