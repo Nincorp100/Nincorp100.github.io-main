@@ -36,7 +36,7 @@ p {
     color: snow;
     font-size: 20px;
     text-decoration: none;
-}
+} 
 
 .about {
     font-size: 20px;
@@ -52,7 +52,13 @@ p {
 .iframe-text-container {
     display: flex;
     align-items: flex-start;
+    justify-content: center;
     gap: 30px; /* space between iframe and text */
+    border-style: solid;
+    background-color: whitesmoke;
+    margin: 40px auto 0 auto; /* top margin, auto left/right, no bottom margin */
+    max-width: 800px;
+    padding: 20px;
 }
 
 .game-details {
@@ -61,4 +67,14 @@ p {
 
 .resume-link {
     text-align: center;
+}
+
+h1 {
+    text-align: center;
+    border-style: solid;
+    background-color: whitesmoke;
+    display: block;
+    margin: 40px auto 0 auto; /* top margin, auto left/right, no bottom margin */
+    max-width: 600px;
+    padding: 20px;
 }
